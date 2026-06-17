@@ -24,7 +24,7 @@ stage('Run App')
 {
 steps
 {
-sh 'mvn exec:java -Dexec.mainClass="com.exampls" '
+sh 'mvn exec:java -Dexec.mainClass="com.example" '
 }}}
 post
 {
